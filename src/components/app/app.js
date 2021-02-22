@@ -8,6 +8,7 @@ import PersonDetails from '../person-details';
 import './app.css'
 
 export default class App extends Component {
+
   render() {
     return (
       <div>
