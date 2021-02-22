@@ -1,0 +1,20 @@
+import React from 'react';
+import './error-indicator.css';
+import icon from './death-star.png';
+
+const ErrorIndicator = () => {
+  return (
+    <div className="error-indicator">
+      <img className="error-icon" src={icon} alt="Death star"></img>
+      <span className="boom">BOOM!</span>
+      <span>
+        Something has gone terribly wrong
+      </span>
+      <span>
+        (but we already sent droids to fix it)
+      </span>
+    </div>
+  )
+}
+
+export default ErrorIndicator;

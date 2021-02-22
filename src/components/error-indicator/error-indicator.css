@@ -1,0 +1,18 @@
+.error-indicator {
+  color: orange;
+  font-size: 1rem;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.boom {
+  font-size: 1.5rem;
+}
+
+.error-icon {
+  width: 4rem;
+  margin: 0.5rem auto;
+}
